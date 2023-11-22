@@ -2,6 +2,7 @@
 import { header } from './componentes/header.js'
 // Importamos la parte estática de la página: h1, h2
 import { vistaComentarios } from './componentes/vistacomentarios.js'
+import { comentario } from './componentes/comentario.js'
 
 // Inyectamos en el header el la plantilla del menú de arriba
 document.querySelector('header').innerHTML = header.template
@@ -11,3 +12,6 @@ header.script()
 document.querySelector('main').innerHTML = vistaComentarios.template
 // ejecutamos script que indica que se ha ejecutado
 vistaComentarios.script()
+
+document.querySelector('#formComentario').innerHTML = comentario.template
+comentario.script()
