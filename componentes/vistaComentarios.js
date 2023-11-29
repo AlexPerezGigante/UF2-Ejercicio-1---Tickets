@@ -1,5 +1,5 @@
 // Creamos objeto vistaComentarios con la plantilla del h1 y h2. Creamos script que indica que se ha hecho
-// import { comentarios } from './componentes/comentarios.js'
+import { comentarios } from './comentarios.js'
 export const vistaComentarios = {
   template: `<div class="container">
   <div class="d-flex">
@@ -15,6 +15,7 @@ export const vistaComentarios = {
         <button class="btn btn-success ms-auto">Añadir comentario</button>
       </div>
     </form>
+    
     </div>`,
   script: () => {
     console.log('inyectamos h1 y h2')

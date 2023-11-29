@@ -11,7 +11,6 @@ export const header = {
       </div>
       <div>
         <span>administrador@fpllefia.com</span>
-        
       </div>
     </div>
   </nav>`,
